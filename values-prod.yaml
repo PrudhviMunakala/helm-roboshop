@@ -1,0 +1,7 @@
+deployment:
+  replicas: 3
+  imageName: "nginx"
+  imageVersion: "1.29-trixie"
+  changeCause: "installing 1.29-trixie version for prod"
+service:
+  type: LoadBalancer
