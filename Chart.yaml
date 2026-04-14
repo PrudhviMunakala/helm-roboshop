@@ -1,4 +1,4 @@
 apiVersion: v2
 name: nginx # chart name
 version: 0.0.1  # Chart Version
-appVersion: latest # Application Version
+appVersion: "1.29.8-trixie" # Application Version
